@@ -1,4 +1,4 @@
-# nft-token-airdrop
+# solana-batch-transfer-token
 
 ## Install Node
 
@@ -94,4 +94,34 @@ const token = new PublicKey("xxxxxxxx")
 
 ```bash
 yarn airdrop
+```
+
+```bash
+BhmYCyYguz7infSmM6ULfsYAnQzKKPMSWcxmfpMDvYT5: 10000
+6L6wjydGeAjiH9uw69Z3fSQmKX44zvY1AK1MEME9Wukc: 10000
+6fRuedpebEWxNyXb9hJbPEiZmgdSvQuBVQffNnFSCUM1: 10000
+HZWKYqSVPdCh58uguHhb6sSyNpHdC2xfNpbxXcEjJQb9: 10000
+4Gq8a8t86yLk2HQVvsYGtMPb7v3qwnxj9iwSn9ET7aD3: 10000
+BmRbMPQM4ySYwmDcD2tV4JBc8XuTKv8Wb6ThvgYTykMm: 10000
+9zn8PcTokn6zSu4nhmMBRSDKkj9DBgdZRUAuVhha4hMV: 10000
+Dwrjw8K8B78mcLvWpMZaTguJ8RpZWthUNdP71FiMydNk: 10000
+send token tx: https://solscan.io/tx/xxxxxxxxxxxxxxxxxxxxxxx
+FrQJXY6R8MD8cJKnPaVcAfjXMbtcSyDquDmFcqsGLAoA: 10000
+GSSYmUuwYNVrewwNEybSrAQYozqFjQVdvRhkgLZaN6iz: 10000
+5KRHgN9FwydaYBgLsHZBbGh25VGwRgC3rezzj7Gz84Rc: 10000
+EahrEoX9i9J7h8fzVGKkgeyen778KQ1ZZeCz1Vb2tNt2: 10000
+2hJ3WgNLB3pvGtZTUDvDHG3aBJtzVyj18KAQWsTWmmy8: 10000
+EM9wKJTineU2pqrmnXydFgm4aHAuB2WxmxBeCRAhDeJy: 10000
+G2mJzREc6HKVx6K6spiRbguHLGkKFFMCGvg8gQ5PxL1m: 10000
+7ajaTEhhiHTpTBF8z25Fv42y2owpK4CYoGLPnuRBVe7d: 10000
+send token tx: https://solscan.io/tx/xxxxxxxxxxxxxxxxxxxxxxx
+99WQk9iStRR63YEqzvo3Z9voery6E38PPho9xovqDwNF: 10000
+5WiVkzjNYLWLzMFkjXFP2XRq4EL6yohvJHdTMDBokcrp: 10000
+Cpq1Fnt3kYAvaKWzDYc484Yqpxyk9h2Lg1ak2HjPb6aH: 10000
+5NpR5HgiUZKcsiSoxz9w5yqSqiHcdH4Yo1o8GfxkmZH7: 10000
+E9YPBYBrjDapd8dvtsKgbAePk7MyYv6mFyVxspb5U2sU: 10000
+ATjuhrPfzsWEkMvfUiLwzgXUUArFDiJWzooqaW8pmixf: 10000
+7iGSS8mzLf52fosv3qQDmdKnGmBFicciBeZtssyx998N: 10000
+2HC7jVMxNNpTkGTLujuBsfxetSwozKnpzcv75AtPHH3z: 10000
+send token tx: https://solscan.io/tx/xxxxxxxxxxxxxxxxxxxxxxx
 ```
