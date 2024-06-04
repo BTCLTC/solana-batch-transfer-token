@@ -1,5 +1,6 @@
 import base58 from "bs58"
 import { readJson } from "fs-extra"
+import { BN } from "@coral-xyz/anchor"
 import { ComputeBudgetProgram, Connection, Keypair, PublicKey, sendAndConfirmTransaction, Transaction } from "@solana/web3.js"
 import { chunk } from "./utils"
 import { RPC_URL } from "./constants"
@@ -67,7 +68,7 @@ const main = async () => {
       await delay()
       const source = await getAssociatedTokenAddress(token, wallet.publicKey)
       transaction.add(
-        createTransferInstruction(source, destinationTokenAccount, wallet.publicKey, amount * 10 ** decimals, [wallet])
+        createTransferInstruction(source, destinationTokenAccount, wallet.publicKey, new BN(amount).mul(new BN(10 ** decimals)).toNumber(), [wallet])
       )
     }
 
